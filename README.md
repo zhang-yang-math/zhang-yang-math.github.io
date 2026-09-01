@@ -12,6 +12,8 @@ A small, dependency-free academic website built with HTML5 and CSS3. It is ready
 - `assets/papers/` — locally hosted publication PDFs
 - `assets/slides/` — locally hosted talk slides
 - `assets/` — site images, papers, and other static assets
+- `robots.txt` — permits search-engine crawling and points to the sitemap
+- `sitemap.xml` — identifies the canonical homepage URL for search engines
 - `.nojekyll` — tells GitHub Pages to serve the static files without Jekyll processing
 
 ## Publish with GitHub Pages
@@ -22,6 +24,10 @@ A small, dependency-free academic website built with HTML5 and CSS3. It is ready
 4. Select the `main` branch and the `/ (root)` folder, then save.
 
 No package installation or build command is required.
+
+## Search indexing
+
+The canonical site URL is `https://zhang-yang-math.github.io/`. After publishing changes, submit that URL in Google Search Console and request indexing. Search engines may still take several days or weeks to include a new site.
 
 ## Content TODOs
 
